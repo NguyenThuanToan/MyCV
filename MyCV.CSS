@@ -1,0 +1,267 @@
+*{ /*Toàn bộ trình duyệt */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{ /*Toàn bộ bố cục*/
+    display: flex;
+    justify-content: center;
+    background-color: #ADD8E6;
+    padding: 20px;
+}
+.body{ /*Phần thân*/
+    background-color: white;
+    height: 133vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border-top: 5px solid yellow;
+    border-left: 5px solid red;
+    border-right: 5px solid green;
+    border-bottom: 5px solid yellowgreen;
+    padding: 10px;
+    --primary-color:#0CC0DF;
+}
+.Head_cv{
+    margin-bottom: 100px;
+    /* background-color: red; */
+    width: 800px;
+    height: 230px;
+    
+}
+.Head{
+    margin-bottom: 100px;
+}
+
+.img_CV{
+    padding: 20px;
+    display: block;
+    position: absolute;
+    justify-self: center;
+    margin-left: 30px;
+}
+img{
+    height: 170px;
+    width: 130px;
+    /* border: 2px black solid; */
+}
+.frame_name{
+    border: 2px gray solid;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    width: 400px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+.Name{
+    color: #0CC0DF;
+    padding-top: 5px;
+    border-top: 2px gray solid;
+    
+}
+.Name,.Position{
+    padding-left: 20px;
+}
+.Name_Position{
+    font-size: 28px;
+    top: 10%;
+    padding: -1px;
+    padding-right: -20px;
+    display: inline;
+    justify-content: center;
+    
+}
+.icon_frame{
+    color: gray;
+    display: flex;
+    justify-content: right;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    filter: brightness(85%) opacity(0.8);
+}
+i{
+    padding-right: 5px;
+    color: gray;
+}
+.Venue p{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.Venue{
+    background-color: white;
+    height: 60px;
+    width: 650px;
+    border-top: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Location,.NumberPhone,.Employ{
+    display: flex;
+    margin-top: 7px;
+    position: relative;
+    border-right: solid var(--primary-color);
+    width: 400vh;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.Employ{
+    border: none;
+    padding-left: 15px;
+}
+.Body_Cv{
+    display: flex;
+    margin-top: 15px;
+    /* border: 3px solid black; */
+    padding-top: -15px;
+    height: 700px;
+}
+.Body{
+    height: 680px;
+    width: 350px;
+    border-right:5px solid var(--primary-color);
+    margin-left: 50px;
+    
+}
+.Expericence{
+    color: var(--primary-color);
+    margin-top: 10px;
+    font-size: 22px;
+    width: 160px;
+    border-bottom:3px solid var(--primary-color);
+}
+.NameProject{
+    margin-top: 2px;
+}
+.deadline,.MainProject{
+    color: var(--primary-color);
+    width: 75px;
+    margin-top: 2px;
+}
+.MainProject{
+    width: 110px;
+}
+.Education,.Skills{
+    color: var(--primary-color);
+    margin-top: 10px;
+    font-size: 22px;
+    width: 103px;
+    border-bottom:3px solid var(--primary-color);
+}
+.Skills{
+    width: 110px;
+    border-bottom:3px solid var(--primary-color);
+}
+.School{
+    color: var(--primary-color);
+}
+.Profile{
+    display: block;
+    left: 500px;
+    margin-right: 50px;
+    margin-left: 15px;
+    border-left: none;
+}
+.MyProfile{
+    color: var(--primary-color);
+    margin-top: 10px;
+    font-size: 22px;
+    width: 235px;
+    display: block;
+    border-bottom: 3px solid var(--primary-color);
+}
+.Detail_Introduce{
+    color: var(--primary-color);
+    margin-top: 10px;
+    font-size: 22px;
+    width: 128px;
+    display: block;
+    border-bottom: 3px solid var(--primary-color);
+    margin-bottom: 3px;
+}
+.Detail_Social{
+    color: var(--primary-color);
+    margin-top: 10px;
+    font-size: 22px;
+    width: 223px;
+    display: block;
+    border-bottom: 3px solid var(--primary-color);
+    margin-bottom: 3px;
+}
+.Detail_Contact{
+    color: var(--primary-color);
+    margin-top: 10px;
+    font-size: 22px;
+    width: 92px;
+    display: block;
+    border-bottom: 3px solid var(--primary-color);
+    margin-bottom: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
